@@ -39,6 +39,8 @@ class Calculator {
 
     root(){
 
+       const signCorrector = this.num1 === 0 ? 0 : this.num1 < 0 ? -1:+1;
+       return  signCorrector * Math.pow(this.num1, 1/this.num2); // Magia negra
     }
 
     module(){
@@ -58,3 +60,4 @@ console.log("La Multiplicación es: "+operation.multiplication());
 console.log("La División es: "+operation.division());
 console.log("La Potencia es: "+operation.power());
 console.log("El Módulo es: "+operation.module()); 
+console.log("El Módulo es: "+operation.root()); 
