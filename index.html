@@ -9,40 +9,40 @@
 <body>
     <main class="container">
         <div class="calculator">
-            <section class="calculator__display">
-                <input type="text" class="calculator__screen" id="screen"/>
+            <section class="calculator__display" id="display">
+                <input type="text" class="calculator__screen" id="screen" value=""/>
             </section>
             <section class="calculator__action-buttons">
-                    <button class="btn btn--delete">Borrar</button>
-                    <button class="btn btn--result">Resultado</button>
+                    <button class="btn btn--delete" value="clear">Limpiar</button>
+                    <button class="btn btn--result" value="result">Resultado</button>
             </section>
             <section class="calculator__advanced-buttons">
                 <button class="btn btn--advanced-operators">%</button>
                 <button class="btn btn--advanced-operators">X<sup>x</sup></button>
                 <button class="btn btn--advanced-operators"><sup>x</sup>√x</button>
-                <button class="btn btn--advanced-operators btn--back">←</button>
+                <button class="btn btn--advanced-operators btn--back" value="back">←</button>
             </section>
             <section class="calculator__buttons">
                 
                 <div class="numbers">
                     <button class="btn btn--numbers" value=7>7</button>
-                    <button class="btn btn--numbers">8</button>
-                    <button class="btn btn--numbers">9</button>
-                    <button class="btn btn--numbers">4</button>
-                    <button class="btn btn--numbers">5</button>
-                    <button class="btn btn--numbers">6</button>
-                    <button class="btn btn--numbers">1</button>
-                    <button class="btn btn--numbers">2</button>
-                    <button class="btn btn--numbers">3</button>
-                    <button class="btn btn--numbers">+/-</button>
-                    <button class="btn btn--numbers">0</button>
-                    <button class="btn btn--numbers">,</button>
+                    <button class="btn btn--numbers" value=8>8</button>
+                    <button class="btn btn--numbers" value=9>9</button>
+                    <button class="btn btn--numbers" value=4>4</button>
+                    <button class="btn btn--numbers" value=5>5</button>
+                    <button class="btn btn--numbers" value=6>6</button>
+                    <button class="btn btn--numbers" value=1>1</button>
+                    <button class="btn btn--numbers" value=2>2</button>
+                    <button class="btn btn--numbers" value=3>3</button>
+                    <button class="btn btn--numbers" value="+/-">+/-</button>
+                    <button class="btn btn--numbers" value=0>0</button>
+                    <button class="btn btn--numbers" value=",">,</button>
                 </div>
                 <div class="operators">
-                    <button class="btn btn--operators">÷</button>
-                    <button class="btn btn--operators">x</button>   
-                    <button class="btn btn--operators">-</button>
-                    <button class="btn btn--operators">+</button>
+                    <button class="btn btn--operators" value="division">÷</button>
+                    <button class="btn btn--operators" value="multiplication">x</button>   
+                    <button class="btn btn--operators" value="subtraction">-</button>
+                    <button class="btn btn--operators" value="addition">+</button>
                 </div>
             </section>
         </div>
