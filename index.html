@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Calculadora</title>
 </head>
 <body>
+    <main class="container">
+        <div class="calculator">
+            <section class="calculator__display">
+                <input type="text" class="calculator__screen" id="screen"/>
+            </section>
+            <section class="calculator__action-buttons">
+                    <button class="btn btn--delete">Borrar</button>
+                    <button class="btn btn--result">Resultado</button>
+            </section>
+            <section class="calculator__advanced-buttons">
+                <button class="btn btn--advanced-operators">%</button>
+                <button class="btn btn--advanced-operators">X<sup>x</sup></button>
+                <button class="btn btn--advanced-operators"><sup>x</sup>√x</button>
+                <button class="btn btn--advanced-operators btn--back">←</button>
+            </section>
+            <section class="calculator__buttons">
+                
+                <div class="numbers">
+                    <button class="btn btn--numbers" value=7>7</button>
+                    <button class="btn btn--numbers">8</button>
+                    <button class="btn btn--numbers">9</button>
+                    <button class="btn btn--numbers">4</button>
+                    <button class="btn btn--numbers">5</button>
+                    <button class="btn btn--numbers">6</button>
+                    <button class="btn btn--numbers">1</button>
+                    <button class="btn btn--numbers">2</button>
+                    <button class="btn btn--numbers">3</button>
+                    <button class="btn btn--numbers">+/-</button>
+                    <button class="btn btn--numbers">0</button>
+                    <button class="btn btn--numbers">,</button>
+                </div>
+                <div class="operators">
+                    <button class="btn btn--operators">÷</button>
+                    <button class="btn btn--operators">x</button>   
+                    <button class="btn btn--operators">-</button>
+                    <button class="btn btn--operators">+</button>
+                </div>
+            </section>
+        </div>
+    </main>
 <script src="./js/index.js"></script>    
 </body>
 </html>

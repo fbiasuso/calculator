@@ -48,7 +48,7 @@ class Calculator {
     }
 }
 
-const num1 = Number(prompt("Escriba el primer número, será usado como el primer operando: "));
+/* const num1 = Number(prompt("Escriba el primer número, será usado como el primer operando: "));
 const num2 = Number(prompt("Escriba el segundo número, será usado como el segundo operando y como la base de la potencia o raíz: "));
 const operation = new Calculator(num1,num2);
 
@@ -60,4 +60,4 @@ console.log("La Multiplicación es: "+operation.multiplication());
 console.log("La División es: "+operation.division());
 console.log("La Potencia es: "+operation.power());
 console.log("El Módulo es: "+operation.module()); 
-console.log("El Módulo es: "+operation.root()); 
+console.log("El Módulo es: "+operation.root());  */
